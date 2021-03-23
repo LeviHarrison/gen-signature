@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="DCO, Developer Certificate of Origin, Git, Commit, Signature">
+        <meta name="description" content="Generate a Git commit signature used for DCO (Developer Certificate of Origin)">
+        <link rel="stylesheet" href="index.css">
+        <title>Git Signature Generator</title>
+    </head>
+    <body>
+        <div class="form">
+            <div>
+                <input id="name-input" name="name" type="text" placeholder="name">
+            </div>
+            <div>
+                <input id="email-input" name="email" type="email" placeholder="email">
+            </div>
+        <div class="result">
+            <code>Signed-off-by: <span id="name">Your Name</span> &lt;<span id="email">your@email.dev</span>&gt;</code>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
